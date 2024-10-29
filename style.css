@@ -3,6 +3,11 @@ body {
   font-size: 16px;
   font-weight: 200;
   font-family: "Red Hat Display", sans-serif;
+  height:100vh;
+}
+*{
+  margin: 0;
+  padding: 0;
 }
 .background {
   width: 100%;
