@@ -1,22 +1,26 @@
-body {
-  background-color: hsl(225, 100%, 94%);
-  font-size: 16px;
-  font-weight: 200;
-  font-family: "Red Hat Display", sans-serif;
-  height:100vh;
-}
 *{
   margin: 0;
   padding: 0;
+}
+body {
+  background: url(./images/pattern-background-desktop.svg);
+  background-color: hsl(225, 100%, 94%);
+  background-size:  100vw;
+  background-repeat: no-repeat;
+  font-size: 16px;
+  font-weight: 200;
+  font-family: "Red Hat Display", sans-serif;
+  height:10vh;
 }
 .background {
   width: 100%;
 }
 .card {
   position: relative;
-  bottom: 310px;
-  width: 350px;
-  height: 540px;
+  /* bottom: 310px; */
+  top: 100px;
+  width: 390px;
+  height: 620px;
   margin: auto;
   border-radius: 20px;
   background-color: white;
@@ -25,18 +29,24 @@ body {
 }
 .illustration-hero {
   width: 100%;
+  height: 240px;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
 }
+h2{margin-top: 30px;}
 p {
   padding-left: 20px;
   padding-right: 20px;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 .container {
   position: relative;
   width: 300px;
   height: 70px;
   margin: auto;
+  margin-top: 15px;
   background-color: hsl(225, 100%, 98%);
   border-radius: 20px;
   padding-bottom: 20px;
@@ -59,11 +69,12 @@ p {
 }
 .icon {
   width: 37px;
-  padding-top: 17px;
+  padding-top: 19px;
 }
 button {
   display: block;
   margin: auto;
+  margin-top: 20px;
   background-color: hsl(245, 75%, 52%);
   height: 40px;
   width: 300px;
@@ -73,4 +84,4 @@ button {
   color: white;
 }
 .cancel{text-align: center;
-padding-top: 15px;}
+padding-bottom: 8px;}
