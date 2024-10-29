@@ -1,0 +1,71 @@
+body {
+  background-color: hsl(225, 100%, 94%);
+  font-size: 16px;
+  font-weight: 200;
+  font-family: "Red Hat Display", sans-serif;
+}
+.background {
+  width: 100%;
+}
+.card {
+  position: relative;
+  bottom: 310px;
+  width: 350px;
+  height: 540px;
+  margin: auto;
+  border-radius: 20px;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: hsl(225, 41%, 78%)0 5px 25px;
+}
+.illustration-hero {
+  width: 100%;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+p {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.container {
+  position: relative;
+  width: 300px;
+  height: 70px;
+  margin: auto;
+  background-color: hsl(225, 100%, 98%);
+  border-radius: 20px;
+  padding-bottom: 20px;
+}
+.plan,
+.price,
+.Change {
+  position: absolute;
+}
+.plan {
+  padding-left: 53px;
+}
+.price {
+  padding-top: 20px;
+  padding-left: 53px;
+}
+.Change {
+  right: 0;
+  padding-top: 10px;
+}
+.icon {
+  width: 37px;
+  padding-top: 17px;
+}
+button {
+  display: block;
+  margin: auto;
+  background-color: hsl(245, 75%, 52%);
+  height: 40px;
+  width: 300px;
+  border-radius: 8px;
+  border: 1px;
+  box-shadow: hsl(228, 38%, 80%)0px 10px 20px;
+  color: white;
+}
+.cancel{text-align: center;
+padding-top: 15px;}
